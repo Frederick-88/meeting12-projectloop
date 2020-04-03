@@ -1,11 +1,11 @@
 // // 1. CREATE FACTORIAL
-//     let inputNumber = window.prompt('masukkan angka untuk faktorial');
-//     let numOfFactorial = 1;
+let inputNumber = window.prompt('masukkan angka untuk faktorial');
+let numOfFactorial = 1;
 
-//     for(i=0; i<inputNumber ;i++){
-//         numOfFactorial = numOfFactorial * (inputNumber-i);
-//         window.alert(`ini adalah hasil faktorial anda ${numOfFactorial}`);
-//     }
+for(i=0; i<inputNumber ;i++){
+    numOfFactorial = numOfFactorial * (inputNumber-i);
+    window.alert(`ini adalah hasil faktorial anda ${numOfFactorial}`);
+}
 // // 1. CREATE FACTORIAL
 
 
@@ -42,20 +42,33 @@
 // 3. CREATE REVERSE ARRAY
 
 // 4. CREATE ASSIGN GRADE WITH FOR
-cekNilai = () => {
-for(let nilaiSiswa =1;nilaiSiswa<100;nilaiSiswa++){
-if (nilaiSiswa < 60) {
-    console.log('Nilai kamu adalah D');
-} else if (nilaiSiswa < 75) {
-    console.log('Nilai kamu adalah C');
-} else if (nilaiSiswa < 90) {
-    console.log('Nilai kamu adalah B');
-} else {
-    console.log('Nilai kamu adalah A');
-}
 
-}
-}
-console.log(cekNilai);
+// cekNilai = (nilaiSiswa) => {
 
+//     if (nilaiSiswa < 60) {
+//         return 'adalah D';
+//     } else if (nilaiSiswa < 75) {
+//         return 'adalah C';
+//     } else if (nilaiSiswa < 90) {
+//         return 'adalah B';
+//     } else {
+//         return 'adalah A';
+//     }
+// }
+
+// for (let i = 1; i < 100; i++) {
+//     let nilai = cekNilai(i);
+//     console.log(`Nilai kamu adalah ${i} dengan skor ${nilai}`);
+// }
 // 4. CREATE ASSIGN GRADE WITH FOR
+
+// 5. MULTIPLIER IN FOR
+// let numberInput = window.prompt('Masukkan nomor pertama');
+// let pengulanganInput = window.prompt('Anda ingin melihat list nomor pertama dikali berapa?');
+
+
+// for(i=0; i<=pengulanganInput ;i++){
+//     let perkalian = numberInput * i;
+
+//     console.log(`${numberInput} x ${i} = ${perkalian}`);
+// }
